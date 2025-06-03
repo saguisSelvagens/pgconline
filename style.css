@@ -1,0 +1,17 @@
+.pag1text {
+  color: red;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  background-color: black;
+  color: red;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+

@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta charset="UTF-8"/> 
+<link rel="stylesheet" href="style2.css">
+<title>TE AMOOOO</title>
+</head>
+<body>
+    <div>
+        <h1>EU TE AMO MEU AMOR!!!</h1>
+        <p>Agora que tenho a sua atenção, eu quero falar o quanto eu amo você e o quanto você é especial pra mim, eu te amo MUITOOOOOOO meu amor, por isso fiz essa surpresinha pra você (um pouco foi o chat que ajudou mas a maior parte fui eu que fiz.)</p>
+        <p>Sei que não é muito, mas é oque eu consigui fazer por agora, eu tô planejando sempre colocar mais coisas nessa página como: fotos nossas, um texto que você pode colocar aqui pra eu ver, ou eu colocar o texto, enfim quero fazer uma página nossa depois.</p>
+        <p>Mas por enquanto, quero falar pra você que eu te amo muito e você é meu amorzinho, desculpa pisar na bola com você as vezes, mas quero que tu saiba que eu amo você muito, muito mesmo e que eu realmente me importo com você e com o seu bem estar, fiz essa página justamente pra te mostrar isso, mostrar que eu te amo muito e quero que você melhore, eu sempre vou estar aqui por você.</p>
+        <h1>eu te amo sofia, você é a mulher mais linda, incrível, perfeita, e maravilhosa que eu já conheci.  nunca deixe de ser quem você é, eu AMO você!! você me faz o homem mais feliz desse mundo, eu queria poder ter o mesmo poder que você tem comigo...</h1>
+         <p>Clique nesse botão aqui pra ganhar um beijinho meu amor</p>
+   <button type="button" onclick="beijinhos()">aperte pra ganhar um beijinho</button>
+
+<div id="surpresa" style="display: none; margin-top: 20px;"></div>
+
+<script>
+  function beijinhos() {
+    const container = document.getElementById("surpresa");
+    container.style.display = "block";
+
+    const novoGif = document.createElement("img");
+    novoGif.src = "https://media1.tenor.com/m/-qBvHf37JNoAAAAd/kitten-kiss.gif"; 
+    novoGif.alt = "Beijinho";
+    novoGif.style.maxWidth = "300px";
+    novoGif.style.margin = "10px auto";
+    novoGif.style.display = "block"; 
+
+    const mensagem = document.createElement("p");
+    mensagem.textContent = "EU TE AMO!!! APERTA VÁRIAS VEZES PRA GANHAR AINDA MAIS BEIJINHOS!!";
+    mensagem.style.color = "white";
+    mensagem.style.fontFamily = "Comic Sans MS, cursive";
+
+    container.appendChild(novoGif);
+    container.appendChild(mensagem);
+  }
+</script>
+
+
+</body>
+</html>
